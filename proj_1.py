@@ -1,9 +1,6 @@
-import streamlit as st 
 import pandas as pd
 import requests
 from datetime import datetime
-import matplotlib.pyplot as plt
-import seaborn as sns
 
 ##deriving data
 Earthquake_records =[]

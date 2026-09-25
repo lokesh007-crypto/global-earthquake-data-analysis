@@ -47,7 +47,7 @@ queries = {
     """select net as network , count(*) as net_count from earthquakes group by net order by net_count desc;
     """,
     "10. Top 5 places with high casualities" :
-    """select country,count(felt) as casualties from earthquakes group by country order by casualties desc limit;
+    """select country,count(felt) as casualties from earthquakes group by country order by casualties desc limit 5;
     """,
     "11. Average economic loss by alert level" :
     """SELECT alert, COUNT(*) AS count
